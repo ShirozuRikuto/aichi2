@@ -1,65 +1,127 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>名城大学情報工学部非公式HP</title>
-        <meta name="description" content="名城大学情報工学部非公式HP">
-        <meta name="viewport" content="width=device-width">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <script src="js/script.js"></script>
-        <link href="css/index.css" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap" rel="stylesheet">    
-    </head>
-    <body>
-        <header class="header">
-            <div class="header-inner">
-                <a class="header-logo" href="index.html">
-                    <img src="images/common/logo.png" alt="ロゴ">
-                </a>
-                <button class="toggle-menu-button"></button>
-                <div class="header-site-menu">
-                    <nav class="site-menu">
-                        <ul>
-                            <li><a href="concept.html">コンセプト</a></li>
-                            <li><a href="members.html">メンバー</a></li>
-                            <li><a href="access.html">アクセス</a></li>
-                        </ul>
-                    </nav>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>愛知県紹介</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>愛知県へようこそ</h1>
+        <p>歴史と現代が交差する魅力あふれる県</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">愛知県について</a></li>
+            <li><a href="#history">歴史</a></li>
+            <li><a href="#tourism">観光地</a></li>
+            <li><a href="#food">名物料理</a></li>
+            <li><a href="#access">アクセス</a></li>
+            <li><a href="#events">イベント</a></li>
+            <li><a href="#culture">文化</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>愛知県について</h2>
+            <div class="content">
+                <p>愛知県は日本の中部地方に位置し、名古屋市を県庁所在地とする県です。工業と商業の中心地であり、多くの歴史的名所や美しい自然環境を有しています。愛知県はまた、文化と伝統が豊かで、年間を通じて多くの祭りやイベントが開催されます。</p>
+                <img src="https://via.placeholder.com/600x400" alt="愛知県の風景">
+            </div>
+        </section>
+        <section id="history">
+            <h2>歴史</h2>
+            <div class="content">
+                <p>愛知県は戦国時代において重要な役割を果たしました。特に、織田信長や豊臣秀吉、徳川家康といった有名な戦国武将の出身地として知られています。名古屋城などの歴史的建造物も多数存在します。江戸時代には、徳川家の支配下に置かれ、経済的にも発展しました。</p>
+                <img src="https://via.placeholder.com/600x400" alt="名古屋城">
+            </div>
+        </section>
+        <section id="tourism">
+            <h2>観光地</h2>
+            <div class="content">
+                <ul>
+                    <li>名古屋城 - 美しい庭園とともに歴史を感じることができます。</li>
+                    <li>熱田神宮 - 古くから信仰を集める神社。</li>
+                    <li>トヨタ産業技術記念館 - トヨタの歴史と技術を学べます。</li>
+                    <li>犬山城 - 日本の国宝に指定されている城。</li>
+                    <li>岡崎城 - 徳川家康の生誕地。</li>
+                </ul>
+                <div class="gallery">
+                    <img src="https://via.placeholder.com/200x200" alt="名古屋城">
+                    <img src="https://via.placeholder.com/200x200" alt="熱田神宮">
+                    <img src="https://via.placeholder.com/200x200" alt="トヨタ産業技術記念館">
+                    <img src="https://via.placeholder.com/200x200" alt="犬山城">
+                    <img src="https://via.placeholder.com/200x200" alt="岡崎城">
                 </div>
             </div>
-        </header>
-        <main class="main">
-            <nav class="floating">
+        </section>
+        <section id="food">
+            <h2>名物料理</h2>
+            <div class="content">
+                <p>愛知県は多くの美味しい名物料理があります。以下はその一部です。</p>
                 <ul>
-                    <li><a href="#">Top</a></li>
+                    <li>味噌カツ - 特製の味噌だれがかかった豚カツ。</li>
+                    <li>ひつまぶし - うなぎの蒲焼きを細かく刻み、ご飯とともにいただく料理。</li>
+                    <li>手羽先 - 名古屋風の手羽先は甘辛いタレで味付けされています。</li>
+                    <li>天むす - 天ぷらを具材としたおむすび。</li>
                 </ul>
-            </nav>
-            <div class="first-view">
-                <div class="first-view-text">
-                    <h1>名城大学情報工学部</h1>
-                    <p>想像以上を，創造しよう．</p>
-                    <div class="lead">
-                        ノーベル賞受賞者を擁する理工学部の伝統的な学びとAI時代のニーズに応える先進的な学び．
-                        理工学部 情報工学科を「情報工学部」へとアップデートし，
-                        多種多様な分野で活躍する，次世代の情報エンジニアを育成します．
-                    </div>
+                <div class="gallery">
+                    <img src="https://via.placeholder.com/200x200" alt="味噌カツ">
+                    <img src="https://via.placeholder.com/200x200" alt="ひつまぶし">
+                    <img src="https://via.placeholder.com/200x200" alt="手羽先">
+                    <img src="https://via.placeholder.com/200x200" alt="天むす">
                 </div>
             </div>
-        </main>
-        <footer class="footer">
-            <nav class="site-menu">
+        </section>
+        <section id="access">
+            <h2>アクセス</h2>
+            <div class="content">
+                <p>愛知県へのアクセスは非常に便利です。中部国際空港（セントレア）があり、名古屋市内には新幹線の停車駅もあります。東京から名古屋までは新幹線で約1時間半、大阪からは約1時間でアクセス可能です。また、愛知県内には多くの公共交通機関が整備されており、移動もスムーズです。</p>
+                <img src="https://via.placeholder.com/600x400" alt="中部国際空港">
+                <iframe width="600" height="400" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section id="events">
+            <h2>イベント</h2>
+            <div class="content">
+                <p>愛知県では年間を通じて多くのイベントが開催されています。特に有名なイベントをいくつか紹介します。</p>
                 <ul>
-                    <li><a href="concept.html">コンセプト</a></li>
-                    <li><a href="members.html">メンバー</a></li>
-                    <li><a href="access.html">アクセス</a></li>
+                    <li>名古屋まつり - 毎年10月に開催される盛大な祭り。</li>
+                    <li>岡崎城下家康公まつり - 4月に行われる歴史的なイベント。</li>
+                    <li>犬山祭り - 4月に開催される伝統的な祭り。</li>
+                    <li>一宮七夕まつり - 7月に行われる七夕祭り。</li>
                 </ul>
-            </nav>
-            <a class="footer-logo" href="index.html">
-                <img src="images/common/logo_footer.png" alt="ロゴ">
-            </a>
-            <p class="copyright"><small>&copy;名城大学情報工学部(嘘)</small></p>
-        </footer>
-    </body>
-</html>
+                <div class="gallery">
+                    <img src="https://via.placeholder.com/200x200" alt="名古屋まつり">
+                    <img src="https://via.placeholder.com/200x200" alt="岡崎城下家康公まつり">
+                    <img src="https://via.placeholder.com/200x200" alt="犬山祭り">
+                    <img src="https://via.placeholder.com/200x200" alt="一宮七夕まつり">
+                </div>
+            </div>
+        </section>
+        <section id="culture">
+            <h2>文化</h2>
+            <div class="content">
+                <p>愛知県の文化は、歴史的な背景や地理的条件によって形成されました。以下は、愛知県の代表的な文化的要素です。</p>
+                <ul>
+                    <li>伝統工芸 - 有松・鳴海絞りや常滑焼など。</li>
+                    <li>舞台芸術 - 文楽や能楽、歌舞伎が盛んです。</li>
+                    <li>祭り - 多くの伝統的な祭りが地域ごとに行われています。</li>
+                    <li>音楽 - 愛知県出身の多くの著名なアーティストがいます。</li>
+                </ul>
+                <div class="gallery">
+                    <img src="https://via.placeholder.com/200x200" alt="有松・鳴海絞り">
+                    <img src="https://via.placeholder.com/200x200" alt="常滑焼">
+                    <img src="https://via.placeholder.com/200x200" alt="文楽">
+                    <img src="https://via.placeholder.com/200x200" alt="能楽">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 愛知県紹介</p>
+        <div class="social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter
