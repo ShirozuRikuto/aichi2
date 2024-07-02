@@ -1,16 +1,20 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const navLinks = document.querySelectorAll("nav ul li a");
-
-    navLinks.forEach(link => {
-        link.addEventListener("click", function(event) {
-            event.preventDefault();
-            const targetId = this.getAttribute("href").substring(1);
-            const targetSection = document.getElementById(targetId);
-
-            window.scrollTo({
-                top: targetSection.offsetTop - document.querySelector("nav").offsetHeight,
-                behavior: "smooth"
-            });
-        });
+window.addEventListener('load', function() {
+    var $button = document.querySelector('.toggle-menu-button');
+    var $menu = document.querySelector('.header-site-menu');
+    $button.addEventListener('click', function() {
+        if ($menu.classList.contains('is-show')) {
+            $menu.classList.remove('is-show');
+        }
+        else {
+            $menu.classList.add('is-show');
+        }
     });
+});
+
+$(function() {
+   $(window).scroll(function() {
+    $("nav.floating").stop().animate(
+        {"top": $(window).scrollTop() + 100},
+    500);
+   }); 
 });
