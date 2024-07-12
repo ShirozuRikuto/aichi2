@@ -8,8 +8,8 @@
 
 nav.floating {
     position: absolute;
-    top: 100px;
-    left: 50px;
+    top: 10%;
+    left: 90%;
     background-color: #000000;
 }
 
@@ -208,7 +208,7 @@ footer .social a:hover {
         display: block;
         width: 44px;
         height: 34px;
-        background-image: url("../images/icon-menu.png");
+        background-image: url("../images/index/icon-menu.png");
         background-size: 50%;
         background-position: center;
         background-repeat: no-repeat;
