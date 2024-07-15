@@ -201,10 +201,15 @@ footer .social a:hover {
     }
 
     .header-site-menu.is-show{
+        position: absolute;
+        top: 34px;
         display: block;
     }
 
     .toggle-menu-button{
+        position: absolute;
+
+        left: 10px;
         display: block;
         width: 44px;
         height: 34px;
